@@ -1,0 +1,34 @@
+.checkout-form .bx-sls .dropdown-block,.checkout-form .bx-sls .dropdown-block{
+    border: none;
+    box-shadow: none;
+}
+.checkout-form .bx-sls .dropdown-block .dropdown-icon{
+    display: none;
+}
+.checkout-form .bx-sls .bx-ui-sls-container{
+    min-height: 68px;
+}
+.checkout-form .bx-sls input[type="text"]{
+    height: 68px;
+}
+.checkout-form .bx-sls .dropdown-block{
+    padding: 0;
+}
+
+.bx-sls.form-control{
+    padding: 0;
+}
+.bx-sls.form-control input{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.bx-sls.form-control .bx-ui-sls-clear{
+    margin: 0;
+    height: 30px;
+    width: 18px;
+    background: none;
+    margin-top: 20px;
+    z-index: 999;
+}

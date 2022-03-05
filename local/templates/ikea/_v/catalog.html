@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta content="browserconfig.xml" name="msapplication-config" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dom Ikea</title>
+		<link href="img/favicon.ico" rel="icon" type="image/png" />
+		<link href="img/favicon.png" rel="icon" type="image/png" />
+		<link rel="apple-touch-icon" sizes="120x35" href="/img/apple-touch-icon.png" />
+		<style>body{opacity: 0;}</style>
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class="browsehappy"><br>Вы используете <strong>устаревший</strong> браузер. 
+		Пожалуйста, <a href="http://browsehappy.com/">обновите его</a> для корректного 
+		отображения сайтов.</p>
+		<![endif]-->
+		<div class="global-wrapper">
+			<div class="wrapper-loader">
+				<div class="logo-loader"></div>
+				<div class="loader-content"></div>
+				<div class="loader-text">Загрузка</div>
+			</div>
+			<div class="bg-overlay"></div>
+			<header class="ui-header">
+				<div class="container">
+					<div class="main-head">
+						<div class="hamburger hamburger--spring">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+						<div class="head-logo">
+							<a href=""><img data-src="img/static/logo.svg" alt="alt"></a>
+						</div>
+						<div class="head-catalog js_catalog tablet-large_visible">
+							<a href=""><span class="ico-close"></span><span class="ico-catalog"></span>Каталог</a>
+						</div>
+						<div class="head-fixed_panel">
+							<div class="head-fixed_panel-top">
+								<div class="head_tablet-box">
+									<div class="mobile-visible">
+										<form action="#" class="search-form">
+											<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+											<div class="search-form_wrapper-submit">
+												<span class="ico-search"></span>
+												<input type="submit" class="search-form_submit" value="">
+											</div>
+										</form>
+									</div>
+									<div class="head-catalog js_catalog-mobile">
+										<a href=""><span class="ico-close"></span><span class="ico-catalog"></span>Каталог</a>
+									</div>
+									<ul class="head_top-menu">
+										<li><a href="">Доставка и оплата</a></li>
+										<li><a href="">Вопросы</a></li>
+										<li><a href="">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="head-nav">
+									<div class="back-list js_back-list">Назад</div>
+									<ul class="head-menu">
+										<li>
+											<a href="">Мебель</a>
+											<span class="mobile-menu_arrow-icon js_arrow-icon"></span>
+											<ul class="head-submenu">
+												<li class="back-list js_back-list_2">Назад</li>
+												<li class="title">Каталог</li>
+												<li><a href="">Все товары</a></li>
+												<li><a href="">Диваны и углы</a></li>
+												<li><a href="">Кресла и шезлонги</a></li>
+												<li><a href="">Шкафы</a></li>
+												<li><a href="">Комоды и контейнеры</a></li>
+												<li><a href="">Кровати</a></li>
+												<li><a href="">Столы и столы</a></li>
+												<li><a href="">Стулья</a></li>
+												<li><a href="">Мебель под ТВ</a></li>
+												<li><a href="">Книжные шкафы и книжные полки</a></li>
+												<li><a href="">Шкафы и витрины</a></li>
+												<li><a href="">Мебельные гарнитуры</a></li>
+												<li><a href="">Компьютерная и геймерская мебель</a></li>
+												<li><a href="">Тележки для кухни и ванной комнаты</a></li>
+												<li><a href="">Столы и барные стулья</a></li>
+												<li><a href="">Мебель для кофейни</a></li>
+												<li><a href="">Буфеты, буфеты и консоли</a></li>
+												<li><a href="">Ширмы и перегородки</a></li>
+												<li><a href="">Мебель для детей</a></li>
+												<li><a href="">Мебель для младенцев</a></li>
+												<li><a href="">Садовая мебель и балкон</a></li>
+											</ul>
+										</li>
+										<li><a href="">Кровати и матрасы</a></li>
+										<li><a href="">Хранение и организация</a></li>
+										<li><a href="">Кухни и кухонные приборы</a></li>
+										<li><a href="">Дети и младенцы</a></li>
+										<li><a href="">Текстиль</a></li>
+										<li><a href="">Украшения</a></li>
+										<li><a href="">Освещение</a></li>
+										<li><a href="">Оборудование ванной комнаты</a></li>
+										<li><a href="">Ковры, коврики и полы</a></li>
+										<li><a href="">Горшки и растения</a></li>
+										<li><a href="">Стирка и уборка</a></li>
+										<li><a href="">Домашнее улучшение</a></li>
+										<li><a href="">Домашняя электроника</a></li>
+										<li><a href="">Умный дом</a></li>
+										<li><a href="">Продукты для сада и балкона</a></li>
+										<li><a href="">Работа из дому</a></li>
+									</ul>
+								</div>
+								<div class="mobile-visible">
+									<a href="" class="head-user gray-btn"><span class="ico-user"></span>Войти в личный кабинет</a>
+								</div>
+							</div>
+							<div class="head-fixed_panel-bottom">
+								<div class="footer-contact">
+									<a href="tel:+78008008080" class="footer_phone-number"><span class="ico-phone"></span>+7-800-800-80-80</a>
+									<a href="mailto:mail@mail.com" class="footer-email"><span class="ico-email"></span>mail@mail.com</a>
+								</div>
+								<a href="#callback" data-toggle="modal" class="gray-btn callback-btn">Заказать звонок</a>
+								<div class="footer_form-box">
+									<div class="title">Подписывайтесь <span class="min">на наши новости</span></div>
+									<form action="#" class="footer-form">
+										<input type="text" class="form-footer_input requiredField callback-email" placeholder="Ваш mail">
+										<input type="submit" class="form-footer_submit-btn main-btn js_form-submit" value="Подписаться">
+									</form>
+								</div>
+								<ul class="social-network">
+									<li><a href=""><span class="ico-inst"></span></a></li>
+									<li><a href=""><span class="ico-fb"></span></a></li>
+								</ul>
+								<a href="" class="footer_terms-use">Пользовательское соглашение</a>
+								<div class="copyright">Все права защищены. DOM IKEA</div>
+								<a href="" class="footer-policy">Политика конфеденциальности</a> <br>
+								<a href="" class="footer-studio"><img alt="alt" src="img/static/studio.svg"></a>
+							</div>
+						</div>
+						<ul class="head_top-menu tablet-large_visible">
+							<li><a href="">Доставка и оплата</a></li>
+							<li><a href="">Вопросы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+						<form action="#" class="search-form mobile-hidden">
+							<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+							<div class="search-form_wrapper-submit">
+								<span class="ico-search"></span>
+								<input type="submit" class="search-form_submit" value="">
+							</div>
+						</form>
+						<a href="" class="head-user mobile-hidden"><span class="ico-user"></span></a>
+						<a href="" class="head-fav"><span class="ico-fav"></span></a>
+						<a href="" class="head-basket"><span class="ico-cart"></span><span class="head-basket_number">5</span></a>
+					</div>
+				</div>
+			</header>
+			<!-- END UI-HEADER -->
+			<main class="main-content">
+				<div class="catalog-section">
+					<div class="container">
+						<ul class="breadcrumbs">
+							<li><a href="">Товары</a></li>
+							<li><a href="">Мебель</a></li>
+							<li>Кровати</li>
+						</ul>
+						<h1>Кровати</h1>
+						<ul class="category-menu">
+							<li class="active"><a href="">Двуспальные кровати</a></li>
+							<li><a href="">Односпальные кровати</a></li>
+							<li><a href="">Кухня</a></li>
+							<li><a href="">Кушетки и раскладушки</a></li>
+							<li><a href="">2-х ярусные кровати и кровати-чердаки</a></li>
+							<li><a href="">Диваны-кровати и кресла-кровати</a></li>
+							<li><a href="">Кровати с ящиками для хранения</a></li>
+							<li><a href="">Кровати с мягким изголовьем и обивкой</a></li>
+							<li><a href="">Кровати для детей от 3 лет</a></li>
+							<li><a href="">Кровати для новорожденных</a></li>
+							<li><a href="">Ящики под кровать</a></li>
+							<li><a href="">Изголовья</a></li>
+						</ul>
+						<div class="top-text">
+							<p>
+								Есть множество способов обустроить спальное место, но только на идеально подобранной кровати вы будете просыпаться и чувствовать себя отлично. Выберите достаточно просторную кровать, на которой можно вытянуться в полный рост или уютно свернуться клубочком. Наши кровати и каркасы кроватей прослужат вам много лет, и их внешний вид будет радовать вас все это время.
+							</p>
+						</div>
+						<div class="filter-panel">
+							<div class="left-column">
+								<span class="catalog_filter-btn"><span class="ico-filter"></span>Все фильтры</span>
+								<ul class="filter-select_list">
+									<li>
+										<select class="js-select">
+											<option value="">Сортировка</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+										</select>
+									</li>
+									<li>
+										<select class="js-select">
+											<option value="">Размер</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+										</select>
+									</li>
+									<li>
+										<select class="js-select">
+											<option value="">Категория</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+										</select>
+									</li>
+									<li>
+										<select class="js-select">
+											<option value="">Цвет</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+											<option value="">Lorem ipsum dolor.</option>
+										</select>
+									</li>
+									<li>
+										<div class="filter_price-column">
+											<span class="filter_price-label">Цена</span>
+											<div class="filter_price-dropdown">
+												<div class="filter-number filter-number_mod">
+													<div class="wrapper_slider-range">
+														<div class="slider-range slider-range_vertical"></div>
+													</div>
+													<div class="field-number_container field-number_container-mod">
+														<div class="wrapper_filter-number">
+															<input type="text" class="field-number price-max"  data-number="200000" placeholder="200 000 руб.">
+														</div>
+														<div class="wrapper_filter-number">
+															<input type="text" class="field-number price-min"  data-number="12000" placeholder="12 000 руб.">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="right-column"><span class="found-products_number">560 товаров</span></div>
+						</div>
+						<!-- end filter-panel -->
+						<div class="filter-fixed">
+							<div class="text-right">
+								<span class="catalog-filter_close-btn ico-close"></span>
+							</div>
+							<div class="section-title">
+								Фильтр <span class="min">по параметрам</span>
+							</div>
+							<div class="filter-fixed_body">
+								<div class="catalog-filter_item">
+									<div class="catalog-filter_item-title">Цена</div>
+									<div class="catalog-filter_item-body">
+										<div class="filter-number">
+											<div class="field-number_container">
+												<div class="wrapper_filter-number">
+													<span class="text">от</span>
+													<input type="text" class="field-number price-min"  data-number="12000" placeholder="12 000">
+												</div>
+												<div class="wrapper_filter-number">
+													<span class="text">до</span>
+													<input type="text" class="field-number price-max"  data-number="200000" placeholder="200 000">
+												</div>
+											</div>
+											<div class="slider-range"></div>
+											<div class="filter-number_footer">
+												<span class="ico-close"></span>
+												выбрано: от <span class="price-text"><span class="first-price">12 000</span> <span class="rouble">i</span></span>  по <span class="second-price">200 000</span> <span class="rouble">i</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-filter_item">
+									<div class="catalog-filter_item-title">Наши предложения</div>
+									<div class="catalog-filter_item-body">
+										<ul class="catalog-filter_list">
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Новинки <span class="number">(5)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Акции<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog-filter_item">
+									<div class="catalog-filter_item-title">Цвет</div>
+									<div class="catalog-filter_item-body">
+										<ul class="catalog-filter_list">
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Белые <span class="number">(5)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Голубой<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Желтый<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Коралловый<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Красные<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Лимон<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Персик<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Полоска<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+											<li>
+												<label class="unified-checkbox">
+													<input value="" type="checkbox" name="checkbox">
+													<span class="checkbox-text">
+														Полоска на сером меланже<span class="number">(157)</span>
+													</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end filter-fixed -->
+						<div class="row catalog-row">
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label new">Новинка</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock">В наличии</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label hit">Бестселлер</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock ended">Товар закончился</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label new">Новинка</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock">В наличии</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label hit">Бестселлер</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock ended">Товар закончился</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label new">Новинка</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock">В наличии</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label hit">Бестселлер</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock ended">Товар закончился</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label new">Новинка</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock">В наличии</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_label hit">Бестселлер</span>
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock ended">Товар закончился</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/04.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-6">
+								<div class="product-item">
+									<div class="product-item_img">
+										<a href="">
+											<span class="product-item_img-tab">
+												<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+												<img data-src="img/static/product/01.jpg" alt="alt">
+												<img data-src="img/static/product/02.jpg" alt="alt">
+												<img data-src="img/static/product/03.jpg" alt="alt">
+											</span>
+										</a>
+										<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+									</div>
+									<div class="product-item_desc">
+										<span class="product-item_stock few">Осталось мало товара</span>
+										<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+										<p>Каркас кровати140x200 см</p>
+										<span class="product-item_price">2 599<span class="rouble">i</span></span>
+										<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+										<div class="product-item_footer">
+											<ul class="product-item_photo">
+												<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+												<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+											</ul>
+											<a href="" class="all_product-photo">+8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pagination-footer">
+							<ul class="main-pagination mobile-hidden">
+								<li class="disabled"><a href="" class="prev-page"></a></li>
+								<li class="active"><a href="">1</a></li>
+								<li><a href="">2</a></li>
+								<li><a href="">3</a></li>
+								<li><a href="">4</a></li>
+								<li><a href="">5</a></li>
+								<li><a href="" class="next-page"></a></li>
+							</ul>
+							<a href="" class="main-btn show-more_btn"><span class="ico-load"></span>Показать еще</a>	
+						</div>
+					</div>
+				</div>
+				<!-- end catalog-section -->
+				<div class="product-section product-section_mod gray-section">
+					<div class="container">
+						<div class="product-section_header">
+							<div class="section-title">Рекомендации для вас</div>
+							<div class="product-counter">
+								<span class="pagination-number"></span>
+								<span class="unified-divider">из</span>
+								<span class="pagination-digit"></span>
+							</div>
+						</div>
+						<div class="product-slider">
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label new">Новинка</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock">В наличии</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label hit">Бестселлер</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock ended">Товар закончился</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label new">Новинка</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock">В наличии</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label hit">Бестселлер</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock ended">Товар закончился</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end product-section -->
+				<div class="container">
+					<div class="popular-goods_section">
+						<div class="popular-goods_header">
+							<div class="left-column">
+								<div class="section-title">
+									Кушетки — комфортно вам и вашим гостям
+								</div>
+								<span class="top-text">На них удобно отдыхать, а еще они легко превращаются в кровать, некоторые даже в двуспальную. <br> Праздники уже на носу, так что сейчас самое время обзавестись кушеткой!</span>
+							</div>
+							<div class="right-column tablet-small_hidden"><a href="" class="main-btn see-all_product-btn">Смотреть все кушетки <span class="ico-arrow"></span></a></div>
+						</div>
+						<div class="row popular-goods_row">
+							<div class="col-md-6"><a href=""><img data-src="img/static/popular-goods/01.jpg" alt="alt"></a></div>
+							<div class="col-md-6"><a href=""><img data-src="img/static/popular-goods/02.jpg" alt="alt"></a></div>
+						</div>
+						<div class="tablet-small_visible">
+							<a href="" class="main-btn see-all_product-btn">Смотреть все кушетки <span class="ico-arrow"></span></a>
+						</div>
+					</div>
+					<!-- end popular-goods_section -->
+					<div class="viewed-products_section">
+						<div class="viewed-products_header">
+							<div class="section-title text-left">Ранее вы смотрели</div>
+							<div class="viewed-products_counter">
+								<span class="pagination-number"></span>
+								<span class="unified-divider">из</span>
+								<span class="pagination-digit"></span>
+								</div>
+							</div>
+						<div class="viewed-products_slider">
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/01.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/02.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/03.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/04.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/01.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+							<div class="viewed-product_item">
+								<div class="viewed-product_item-img">
+									<a href=""><img data-src="img/static/product/02.jpg" alt="alt"></a>
+								</div>
+								<div class="viewed-product_item-desc">
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end viewed-products_section -->
+				</div>
+			</main>
+			<!-- end main-content -->
+			<footer class="main-footer">
+				<div class="container">
+					<div class="main-footer_content">
+						<div class="row">
+							<div class="col-xl-6">
+								<div class="main-footer_row">
+									<div class="footer-logo"><a href=""><img data-src="img/static/logo.svg" alt="alt"></a></div>
+									<ul class="footer-menu">
+										<li><a href="">Каталог</a></li>
+										<li><a href="">Доставка и оплата</a></li>
+										<li><a href="">Вопросы</a></li>
+										<li><a href="">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="main-footer_row">
+									<div class="footer-contact">
+										<a href="tel:+78008008080" class="footer_phone-number"><span class="ico-phone"></span>+7-800-800-80-80</a>
+										<a href="mailto:mail@mail.com" class="footer-email"><span class="ico-email"></span>mail@mail.com</a>
+									</div>
+									<a href="#callback" data-toggle="modal" class="gray-btn callback-btn">Заказать звонок</a>
+									<ul class="social-network mobile-hidden">
+										<li><a href=""><span class="ico-inst"></span></a></li>
+										<li><a href=""><span class="ico-fb"></span></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-6">
+								<div class="footer_form-box">
+									<div class="title">Подписывайтесь <span class="min">на наши новости</span></div>
+									<form action="#" class="footer-form">
+										<input type="text" class="form-footer_input requiredField callback-email" placeholder="Ваш mail">
+										<input type="submit" class="form-footer_submit-btn main-btn js_form-submit" value="Подписаться">
+									</form>
+								</div>
+								<div class="mobile-visible">
+									<ul class="social-network">
+										<li><a href=""><span class="ico-inst"></span></a></li>
+										<li><a href=""><span class="ico-fb"></span></a></li>
+									</ul>
+								</div>
+								<div class="main-footer_row">
+									<div class="left-column">
+										<a href="" class="footer_terms-use">Пользовательское соглашение</a>
+										<div class="copyright">Все права защищены. DOM IKEA</div>
+									</div>
+									<div class="right-column text-right">
+										<a href="" class="footer-policy">Политика конфеденциальности</a> <br>
+										<a href="" class="footer-studio"><img alt="alt" src="img/static/studio.svg"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" class="search-form search-form_footer mobile-hidden">
+						<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+						<div class="search-form_wrapper-submit">
+							<span class="ico-search"></span>
+							<input type="submit" class="search-form_submit" value="">
+						</div>
+					</form>
+				</div>
+			</footer>
+			<!-- end main-footer -->
+			<div class="scroll-to-top"></div>
+		</div>
+		<!-- END GLOBAL-WRAPPER -->
+		<div aria-hidden="true" class="modal fade js-modal" id="callback" role="dialog">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<button class="close" data-dismiss="modal" type="button"><span class="ico-close"></span></button>
+					<div class="section-title">Заказать звонок</div>
+					<form action="#" class="callback-form">
+						<div class="form-group">
+							<input type="text" class="form-control requiredField callback-name">
+							<label class="form-label">Ваше имя*</label>	
+						</div>
+						<div class="form-group">
+							<label class="form-label">Телефон*</label>
+							<input type="tel" class="form-control requiredField callback-phone">
+						</div>
+						<input type="submit" class="popup-form_submit main-btn js_form-submit" value="Заказать звонок">
+						<div class="form-policy">
+							Нажимая на кнопку “Заказать звонок” вы даете согласие на <a href="">обработку персональных данных</a>. 
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- end callback -->
+		<div aria-hidden="true" class="modal fade js-modal"  role="dialog" id="application-accepted">
+    	<div class="modal-dialog modal-dialog_mod modal-dialog-centered" role="document">
+	      <div class="modal-content">
+	      	<button class="close" data-dismiss="modal" type="button"><span class="ico-close"></span></button>
+	      	<div class="popup-icon"><img data-src="img/icons/ico-check.svg" alt=""></div>	
+	      	<p class="modal-text">Ваша заявка успешно отправлена!</p>
+			 	</div>
+			</div>
+		</div>
+		<!-- end application-accepted -->
+		<link href="css/min.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		<script src="js/min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta content="browserconfig.xml" name="msapplication-config" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dom Ikea</title>
+		<link href="img/favicon.ico" rel="icon" type="image/png" />
+		<link href="img/favicon.png" rel="icon" type="image/png" />
+		<link rel="apple-touch-icon" sizes="120x35" href="/img/apple-touch-icon.png" />
+		<style>body{opacity: 0;}</style>
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class="browsehappy"><br>Вы используете <strong>устаревший</strong> браузер. 
+		Пожалуйста, <a href="http://browsehappy.com/">обновите его</a> для корректного 
+		отображения сайтов.</p>
+		<![endif]-->
+		<div class="global-wrapper">
+			<div class="wrapper-loader">
+				<div class="logo-loader"></div>
+				<div class="loader-content"></div>
+				<div class="loader-text">Загрузка</div>
+			</div>
+			<div class="bg-overlay"></div>
+			<header class="ui-header">
+				<div class="container">
+					<div class="main-head">
+						<div class="hamburger hamburger--spring">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+						<div class="head-logo">
+							<a href=""><img data-src="img/static/logo.svg" alt="alt"></a>
+						</div>
+						<div class="head-catalog js_catalog tablet-large_visible">
+							<a href=""><span class="ico-close"></span><span class="ico-catalog"></span>Каталог</a>
+						</div>
+						<div class="head-fixed_panel">
+							<div class="head-fixed_panel-top">
+								<div class="head_tablet-box">
+									<div class="mobile-visible">
+										<form action="#" class="search-form">
+											<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+											<div class="search-form_wrapper-submit">
+												<span class="ico-search"></span>
+												<input type="submit" class="search-form_submit" value="">
+											</div>
+										</form>
+									</div>
+									<div class="head-catalog js_catalog-mobile">
+										<a href=""><span class="ico-close"></span><span class="ico-catalog"></span>Каталог</a>
+									</div>
+									<ul class="head_top-menu">
+										<li><a href="">Доставка и оплата</a></li>
+										<li><a href="">Вопросы</a></li>
+										<li><a href="">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="head-nav">
+									<div class="back-list js_back-list">Назад</div>
+									<ul class="head-menu">
+										<li>
+											<a href="">Мебель</a>
+											<span class="mobile-menu_arrow-icon js_arrow-icon"></span>
+											<ul class="head-submenu">
+												<li class="back-list js_back-list_2">Назад</li>
+												<li class="title">Каталог</li>
+												<li><a href="">Все товары</a></li>
+												<li><a href="">Диваны и углы</a></li>
+												<li><a href="">Кресла и шезлонги</a></li>
+												<li><a href="">Шкафы</a></li>
+												<li><a href="">Комоды и контейнеры</a></li>
+												<li><a href="">Кровати</a></li>
+												<li><a href="">Столы и столы</a></li>
+												<li><a href="">Стулья</a></li>
+												<li><a href="">Мебель под ТВ</a></li>
+												<li><a href="">Книжные шкафы и книжные полки</a></li>
+												<li><a href="">Шкафы и витрины</a></li>
+												<li><a href="">Мебельные гарнитуры</a></li>
+												<li><a href="">Компьютерная и геймерская мебель</a></li>
+												<li><a href="">Тележки для кухни и ванной комнаты</a></li>
+												<li><a href="">Столы и барные стулья</a></li>
+												<li><a href="">Мебель для кофейни</a></li>
+												<li><a href="">Буфеты, буфеты и консоли</a></li>
+												<li><a href="">Ширмы и перегородки</a></li>
+												<li><a href="">Мебель для детей</a></li>
+												<li><a href="">Мебель для младенцев</a></li>
+												<li><a href="">Садовая мебель и балкон</a></li>
+											</ul>
+										</li>
+										<li><a href="">Кровати и матрасы</a></li>
+										<li><a href="">Хранение и организация</a></li>
+										<li><a href="">Кухни и кухонные приборы</a></li>
+										<li><a href="">Дети и младенцы</a></li>
+										<li><a href="">Текстиль</a></li>
+										<li><a href="">Украшения</a></li>
+										<li><a href="">Освещение</a></li>
+										<li><a href="">Оборудование ванной комнаты</a></li>
+										<li><a href="">Ковры, коврики и полы</a></li>
+										<li><a href="">Горшки и растения</a></li>
+										<li><a href="">Стирка и уборка</a></li>
+										<li><a href="">Домашнее улучшение</a></li>
+										<li><a href="">Домашняя электроника</a></li>
+										<li><a href="">Умный дом</a></li>
+										<li><a href="">Продукты для сада и балкона</a></li>
+										<li><a href="">Работа из дому</a></li>
+									</ul>
+								</div>
+								<div class="mobile-visible">
+									<a href="" class="head-user gray-btn"><span class="ico-user"></span>Войти в личный кабинет</a>
+								</div>
+							</div>
+							<div class="head-fixed_panel-bottom">
+								<div class="footer-contact">
+									<a href="tel:+78008008080" class="footer_phone-number"><span class="ico-phone"></span>+7-800-800-80-80</a>
+									<a href="mailto:mail@mail.com" class="footer-email"><span class="ico-email"></span>mail@mail.com</a>
+								</div>
+								<a href="#callback" data-toggle="modal" class="gray-btn callback-btn">Заказать звонок</a>
+								<div class="footer_form-box">
+									<div class="title">Подписывайтесь <span class="min">на наши новости</span></div>
+									<form action="#" class="footer-form">
+										<input type="text" class="form-footer_input requiredField callback-email" placeholder="Ваш mail">
+										<input type="submit" class="form-footer_submit-btn main-btn js_form-submit" value="Подписаться">
+									</form>
+								</div>
+								<ul class="social-network">
+									<li><a href=""><span class="ico-inst"></span></a></li>
+									<li><a href=""><span class="ico-fb"></span></a></li>
+								</ul>
+								<a href="" class="footer_terms-use">Пользовательское соглашение</a>
+								<div class="copyright">Все права защищены. DOM IKEA</div>
+								<a href="" class="footer-policy">Политика конфеденциальности</a> <br>
+								<a href="" class="footer-studio"><img alt="alt" src="img/static/studio.svg"></a>
+							</div>
+						</div>
+						<ul class="head_top-menu tablet-large_visible">
+							<li><a href="">Доставка и оплата</a></li>
+							<li><a href="">Вопросы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+						<form action="#" class="search-form mobile-hidden">
+							<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+							<div class="search-form_wrapper-submit">
+								<span class="ico-search"></span>
+								<input type="submit" class="search-form_submit" value="">
+							</div>
+						</form>
+						<a href="" class="head-user mobile-hidden"><span class="ico-user"></span></a>
+						<a href="" class="head-fav"><span class="ico-fav"></span></a>
+						<a href="" class="head-basket"><span class="head-basket_icon"></span><span class="head-basket_number">5</span></a>
+					</div>
+				</div>
+			</header>
+			<!-- END UI-HEADER -->
+			<main class="main-content">
+				<div class="container">
+					<div class="main-section">
+						<div class="row no-gutters">
+							<div class="col-md-7 order-md-2"><div class="main-banner"></div></div>
+							<div class="col-md-5 left-column">
+								<h1>Доставка товаров из IKEA. Привезем все!</h1>
+								<div class="wrapper_price-tag">
+									<span class="price-tag"><span class="price-tag_text">50 <span class="rouble">i</span>.кг.</span></span>
+								</div>
+								<p>Обустройте дом, где будет удобно <span class="min">вам, вашим близким, друзьям и детям.</span></p>
+								<a href="" class="main-btn">Смотреть все товары</a>
+							</div>
+						</div>
+					</div>
+					<!-- end main-section -->
+					<div class="delivery-section">
+						<div class="row">
+							<div class="col-md-4 delivery-item">
+								<span class="delivery-item_title">Доставка из ИКЕА 24х7</span>
+								<p>Экономим ваше время. Не тратьте его на самостоятельную поездку за товаром, которого <span class="min">может не оказаться в наличии в магазине.</span></p>
+							</div>
+							<div class="col-md-5 delivery-item delivery-item_center">
+								<span class="delivery-item_title">Доставка по Калининграду и Гданьску</span>
+								<p>Стоимость заказа 50 руб за 1 кг. Доставка по Калининграду бесплатно. Стоимость доставки по области зависит от удаленности от склада. Подробнее в разделе «Корзина».</p>
+							</div>
+							<div class="col-md-3 delivery-item">
+								<span class="delivery-item_title">Доставка до 10 рабочих дней</span>
+								<p>При заказе до 20:00 – доставка осуществляется в течение 10 рабочих дней следующих за днем заказа.</p>
+							</div>
+						</div>
+					</div>
+					<!-- end delivery-section -->
+					<div class="service-section">
+						<h2>Сегодня в ИКЕА</h2>
+						<div class="row service-row">
+							<div class="col-md-4">
+								<div class="service-item">
+									<div class="service-item_img">
+										<a href=""><img data-src="img/static/service/01.jpg" alt="alt"></a>
+									</div>
+									<div class="service-item_desc desc-red">
+										<span class="service-item_title">Готовимся к новому году</span>
+										<p>Мы собрали подборку товаров и идей для создания новогоднего настроения.</p>
+										<a href="" class="service-item_btn main-btn">Смотреть <span class="ico-arrow"></span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service-item">
+									<div class="service-item_img">
+										<a href=""><img data-src="img/static/service/02.jpg" alt="alt"></a>
+									</div>
+									<div class="service-item_desc desc-pink">
+										<span class="service-item_title">Как добавить в дом #Homepositive</span>
+										<p>Товары и решения для комфортных отношений с близкими </p>
+										<a href="" class="service-item_btn main-btn">Смотреть <span class="ico-arrow"></span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service-item">
+									<div class="service-item_img">
+										<a href=""><img data-src="img/static/service/03.jpg" alt="alt"></a>
+									</div>
+									<div class="service-item_desc desc-blue">
+										<span class="service-item_title">Работаете удаленно?</span>
+										<p>Обустройте эргонамичное рабочее место, чтобы повысить свою продуктивность</p>
+										<a href="" class="service-item_btn main-btn">Смотреть <span class="ico-arrow"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- утв service-section -->
+					<div class="make-order_section">
+						<div class="section-title text-center">
+							Как сделать заказ?
+							<small>Подробная информация о товарах, условиях заказа и оформления доставки</small>
+						</div>
+						<div class="row make-order_row">
+							<div class="col-md-4 make-order_item">
+								<span class="item-number">01</span>
+								<span class="item-title">Ещё не выбрали покупки в ИКЕА?</span>
+								<p>Воспользуйтесь нашим каталогом — добавьте товары в корзину, чтобы автоматически рассчитать стоимость!</p>
+								<a href="" class="make-order_item-btn">Перейти в каталог</a>
+							</div>
+							<div class="col-md-4 make-order_item make-order_item-center">
+								<span class="item-number">02</span>
+								<span class="item-title">Интересуют <span class="min">условия доставки?</span></span>
+								<p>Узнайте подробнее об условиях, ценах, дополнительных услугах и гарантиях</p>
+								<a href="" class="make-order_item-btn">Перейти в каталог</a>
+							</div>
+							<div class="col-md-4 make-order_item">
+								<span class="item-number">03</span>
+								<span class="item-title">Уже выбрали товары на сайте IKEA?</span>
+								<p>Тогда просто переходите по ссылке ниже и добавляйте товары в корзину через форму поиска по артикулу.</p>
+								<a href="" class="make-order_item-btn">Перейти в каталог</a>
+							</div>
+						</div>
+					</div>
+					<!-- end make-order_section -->
+				</div>
+				<div class="category-section gray-section">
+					<div class="container">
+						<div class="category-section_header">
+						<div class="section-title">Популярные категории</div>
+						<div class="category-counter">
+							<span class="pagination-number"></span>
+							<span class="unified-divider">из</span>
+							<span class="pagination-digit"></span>
+						</div>
+						</div>
+						<div class="category-slider">
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/01.jpg" alt="alt">
+								<span class="category-item_title">Новогодние украшения</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/02.jpg" alt="alt">
+								<span class="category-item_title">Подсвечники и свечи</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/03.jpg" alt="alt">
+								<span class="category-item_title">Пледы</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/04.jpg" alt="alt">
+								<span class="category-item_title">Праздничное освещение</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/05.jpg" alt="alt">
+								<span class="category-item_title">Упаковочная бумага</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="" class="swow-all_category-btn">
+								<span class="item-text">Смотреть все товары</span>
+								<span class="item-arrow ico-arrow"></span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/02.jpg" alt="alt">
+								<span class="category-item_title">Подсвечники и свечи</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/03.jpg" alt="alt">
+								<span class="category-item_title">Пледы</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/04.jpg" alt="alt">
+								<span class="category-item_title">Праздничное освещение</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/05.jpg" alt="alt">
+								<span class="category-item_title">Упаковочная бумага</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/04.jpg" alt="alt">
+								<span class="category-item_title">Праздничное освещение</span>
+							</a>
+						</div>
+						<div class="category-item">
+							<a href="">
+								<img src="img/static/category/05.jpg" alt="alt">
+								<span class="category-item_title">Упаковочная бумага</span>
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+				<!-- end category-section -->
+				<div class="product-section">
+					<div class="container">
+						<div class="product-section_header">
+							<div class="section-title">Рекомендации для вас</div>
+							<div class="product-counter">
+								<span class="pagination-number"></span>
+								<span class="unified-divider">из</span>
+								<span class="pagination-digit"></span>
+							</div>
+						</div>
+						<div class="product-slider">
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label new">Новинка</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock">В наличии</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label hit">Бестселлер</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock ended">Товар закончился</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label new">Новинка</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/01.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock">В наличии</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_label hit">Бестселлер</span>
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/02.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock ended">Товар закончился</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/03.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/04.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="product-item_img">
+									<a href="">
+										<span class="product-item_img-tab">
+											<img data-src="img/static/product/04.jpg" alt="alt" class="active">
+											<img data-src="img/static/product/01.jpg" alt="alt">
+											<img data-src="img/static/product/02.jpg" alt="alt">
+											<img data-src="img/static/product/03.jpg" alt="alt">
+										</span>
+									</a>
+									<span class="product-item_fav"><span class="ico-fav"></span><span class="ico-fav-2"></span></span>
+								</div>
+								<div class="product-item_desc">
+									<span class="product-item_stock few">Осталось мало товара</span>
+									<span class="product-item_title"><a href="">NEIDEN НЕЙДЕН</a></span>
+									<p>Каркас кровати140x200 см</p>
+									<span class="product-item_price">2 599<span class="rouble">i</span></span>
+									<a href="" class="product-item_btn ico-cart"><span class="plus-icon">+</span><span class="ico-check"></span></a>
+									<div class="product-item_footer">
+										<ul class="product-item_photo">
+											<li class="active"><img data-src="img/static/product/small/01.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/02.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/03.jpg" alt="alt"></li>
+											<li><img data-src="img/static/product/small/04.jpg" alt="alt"></li>
+										</ul>
+										<a href="" class="all_product-photo">+8</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end product-section -->
+				<div class="advantages-section">
+					<div class="container">
+						<div class="section-title text-center">
+							Почему заказывать нужно у нас?
+							<small>Преимущества заказа товаров на сайте DOM IKEA — комфорт и прозрачные цены</small>
+						</div>
+						<ul class="advantages-list">
+							<li>
+								<div class="advantage-item">
+									<div class="advantage-item_title">
+										<span class="advantage-item_icon"><img data-src="img/icons/advantages/01.svg" alt="alt"></span>Быстрая доставка!
+									</div>
+									<p>Доставляем ваши покупки в удобное время и в полной сохранности</p>
+								</div>
+							</li>
+							<li>
+								<div class="advantage-item">
+									<div class="advantage-item_title">
+										<span class="advantage-item_icon"><img data-src="img/icons/advantages/02.svg" alt="alt"></span>Прозрачные <br>цены
+									</div>
+									<p>Мы не делаем наценку на товар и детально раскрываем из чего складывается стоимость доставки</p>
+								</div>
+							</li>
+							<li>
+								<div class="advantage-item">
+									<div class="advantage-item_title">
+										<span class="advantage-item_icon"><img data-src="img/icons/advantages/03.svg" alt="alt"></span>Без предоплаты. Совсем.
+									</div>
+									<p>Оплачивайте покупки, когда они уже у вас</p>
+								</div>
+							</li>
+							<li>
+								<div class="advantage-item">
+									<div class="advantage-item_title">
+										<span class="advantage-item_icon"><img data-src="img/icons/advantages/04.svg" alt="alt"></span>Остались <br>вопросы?
+									</div>
+									<p>Мы собрали ответы на самые популярные</p>
+									<a href="" class="gray-btn">Читать все</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end advantages-section -->
+				<div class="container">
+					<div class="portfolio-section">
+						<div class="section-title">Больше идей и вдохновения</div>
+						<div class="tab-container">
+							<ul class="porfolio-section_tab-names">
+								<li class="tab active">Спальня</li>
+								<li class="tab">Гостиная</li>
+								<li class="tab">Кухня</li>
+								<li class="tab">Рабочий кабинет</li>
+								<li class="tab">Дача и сад</li>
+								<li class="tab">Ванная</li>
+								<li class="tab">Детская</li>
+								<li class="tab">Столовая</li>
+								<li class="tab">Коридор</li>
+								<li class="tab">Аксессуары</li>
+							</ul>
+							<div class="tab-item is-visible">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+							<div class="tab-item">
+								<div class="portfolio-content">
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/01.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/02.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/03.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/05.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/04.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/06.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/08.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/07.jpg" alt="alt"></a>
+									</div>
+									<div class="portfolio-item item-hidden">
+										<a href=""><img data-src="img/static/portfolio/09.jpg" alt="alt"></a>
+									</div>
+								</div>
+								<div class="text-center">
+									<a href="" class="main-btn show-all_portfolio-btn"><span class="text">Смотреть еще</span><span class="number"> +10</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end porfolio-section -->
+					<div class="form-section">
+						<div class="row no-gutters">
+							<div class="col-md-7 order-md-2"><div class="static-form_bg" style="background-image: url(img/bg/form/01.jpg)"></div></div>
+							<div class="col-md-5 left-column">
+								<div class="section-title">
+									У вас появились вопросы?
+								</div>
+								<span class="top-text">Оставьте нам свою заявку и мы с вами свяжемся в ближайшее время</span>
+								<form action="#" class="static-form">
+									<div class="form-group">
+										<input type="text" class="form-control">
+										<label class="form-label">Ф.И.О.</label>	
+									</div>
+									<div class="form-group">
+										<label class="form-label">Телефон*</label>
+										<input type="tel" class="form-control requiredField callback-phone">
+									</div>
+									<div class="form-group form-group_mod">
+										<textarea class="form-control requiredField callback-text"></textarea>
+										<label class="form-label">Ваш вопрос*</label>
+									</div>
+									<input type="submit" class="main-btn form-static_submit js_form-submit" value="Отправить">
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- end form-section -->
+					<div class="instagram-section">
+						<div class="section-title text-center">
+							Следите за нами
+							<small>Подписывайтесь на наш Instagram <a href="" target="_blank" class="instagram-link">#domikea</a></small>
+						</div>
+						<div class="row instagram-row">
+							<div class="col-md-3 col-6">
+								<div class="instagram-item"><a href=""><img src="img/static/instagram/01.jpg" alt="alt"></a></div>
+							</div>
+							<div class="col-md-3 col-6">
+								<div class="instagram-item"><a href=""><img src="img/static/instagram/02.jpg" alt="alt"></a></div>
+							</div>
+							<div class="col-md-3 col-6">
+								<div class="instagram-item"><a href=""><img src="img/static/instagram/03.jpg" alt="alt"></a></div>
+							</div>
+							<div class="col-md-3 col-6">
+								<div class="instagram-item"><a href=""><img src="img/static/instagram/04.jpg" alt="alt"></a></div>
+							</div>
+						</div>
+					</div>
+					<!-- end instagram-section -->
+				</div>
+			</main>
+			<!-- end main-content -->
+			<footer class="main-footer">
+				<div class="container">
+					<div class="main-footer_content">
+						<div class="row">
+							<div class="col-xl-6">
+								<div class="main-footer_row">
+									<div class="footer-logo"><a href=""><img data-src="img/static/logo.svg" alt="alt"></a></div>
+									<ul class="footer-menu">
+										<li><a href="">Каталог</a></li>
+										<li><a href="">Доставка и оплата</a></li>
+										<li><a href="">Вопросы</a></li>
+										<li><a href="">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="main-footer_row">
+									<div class="footer-contact">
+										<a href="tel:+78008008080" class="footer_phone-number"><span class="ico-phone"></span>+7-800-800-80-80</a>
+										<a href="mailto:mail@mail.com" class="footer-email"><span class="ico-email"></span>mail@mail.com</a>
+									</div>
+									<a href="#callback" data-toggle="modal" class="gray-btn callback-btn">Заказать звонок</a>
+									<ul class="social-network mobile-hidden">
+										<li><a href=""><span class="ico-inst"></span></a></li>
+										<li><a href=""><span class="ico-fb"></span></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-6">
+								<div class="footer_form-box">
+									<div class="title">Подписывайтесь <span class="min">на наши новости</span></div>
+									<form action="#" class="footer-form">
+										<input type="text" class="form-footer_input requiredField callback-email" placeholder="Ваш mail">
+										<input type="submit" class="form-footer_submit-btn main-btn js_form-submit" value="Подписаться">
+									</form>
+								</div>
+								<div class="mobile-visible">
+									<ul class="social-network">
+										<li><a href=""><span class="ico-inst"></span></a></li>
+										<li><a href=""><span class="ico-fb"></span></a></li>
+									</ul>
+								</div>
+								<div class="main-footer_row">
+									<div class="left-column">
+										<a href="" class="footer_terms-use">Пользовательское соглашение</a>
+										<div class="copyright">Все права защищены. DOM IKEA</div>
+									</div>
+									<div class="right-column text-right">
+										<a href="" class="footer-policy">Политика конфеденциальности</a> <br>
+										<a href="" class="footer-studio"><img alt="alt" src="img/static/studio.svg"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form action="#" class="search-form search-form_footer mobile-hidden">
+						<input type="text" class="search-form_input" placeholder="Поиск по сайту">
+						<div class="search-form_wrapper-submit">
+							<span class="ico-search"></span>
+							<input type="submit" class="search-form_submit" value="">
+						</div>
+					</form>
+				</div>
+			</footer>
+			<!-- end main-footer -->
+			<div class="scroll-to-top"></div>
+		</div>
+		<!-- END GLOBAL-WRAPPER -->
+		<div aria-hidden="true" class="modal fade js-modal" id="callback" role="dialog">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<button class="close" data-dismiss="modal" type="button"><span class="ico-close"></span></button>
+					<div class="section-title">Заказать звонок</div>
+					<form action="#" class="callback-form">
+						<div class="form-group">
+							<input type="text" class="form-control requiredField callback-name">
+							<label class="form-label">Ваше имя*</label>	
+						</div>
+						<div class="form-group">
+							<label class="form-label">Телефон*</label>
+							<input type="tel" class="form-control requiredField callback-phone">
+						</div>
+						<input type="submit" class="popup-form_submit main-btn js_form-submit" value="Заказать звонок">
+						<div class="form-policy">
+							Нажимая на кнопку “Заказать звонок” вы даете согласие на <a href="">обработку персональных данных</a>. 
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- end callback -->
+		<div aria-hidden="true" class="modal fade js-modal"  role="dialog" id="application-accepted">
+    	<div class="modal-dialog modal-dialog_mod modal-dialog-centered" role="document">
+	      <div class="modal-content">
+	      	<button class="close" data-dismiss="modal" type="button"><span class="ico-close"></span></button>
+	      	<div class="popup-icon"><img data-src="img/icons/ico-check.svg" alt=""></div>	
+	      	<p class="modal-text">Ваша заявка успешно отправлена!</p>
+			 	</div>
+			</div>
+		</div>
+		<!-- end application-accepted -->
+		<link href="css/min.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		<script src="js/min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
